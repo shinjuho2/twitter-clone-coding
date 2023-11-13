@@ -1,9 +1,9 @@
 import { useState } from "react"
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from "../firebase";
-import { Form, NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FirebaseError } from "firebase/app";
-import { Error, Input, Switcher, Title, Wrapper } from "../components/auth-components";
+import { Error, Form, Input, Switcher, Title, Wrapper } from "../components/auth-components";
 
 export default function CreateAccount() {
 

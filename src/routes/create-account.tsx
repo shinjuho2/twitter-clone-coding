@@ -1,4 +1,3 @@
-import { styled } from "styled-components";
 import { useState } from "react"
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from "../firebase";

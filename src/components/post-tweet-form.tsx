@@ -69,6 +69,10 @@ export default function PostTweetForm() {
             setFile(files[0]);
         }
     }
+    const onSubmit = (e:React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        if( isLoading || tweet === "" || tweet.length > 180 ) return;
+    }
 
     return (
         <Form>

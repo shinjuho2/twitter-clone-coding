@@ -1,7 +1,9 @@
 import { styled } from "styled-components";
 import PostTweetForm from "../components/post-tweet-form";
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+    text-align: center;
+`;
 
 export default function Home() {
     return (
